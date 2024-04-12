@@ -5,7 +5,7 @@ export function Presentation () {
   return (
     <section className='flex flex-col items-center bg-slate-800'>
       <div>
-        <h1 data-text='Front-end Developer' className='text-3xl md:text-5xl text-cyan-500 font-bold m-3 dev'> Front-end Developer</h1>
+        <h1 data-text='Front-end Developer' className='text-xl md:text-5xl text-cyan-500 font-bold m-3 dev'> Front-end Developer</h1>
       </div>
       <h3 className='text-large md:text-3xl m-3'> Matias Joaquin Gallardo</h3>
       <div className='flex'>
