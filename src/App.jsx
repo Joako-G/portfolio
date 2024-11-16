@@ -4,15 +4,20 @@ import './app.css'
 import { Project } from './components/project/Project'
 import { Presentation } from './components/Presentation'
 import { AboutMe } from './components/aboutMe/AboutMe'
+import Header from './components/Header'
 
 export function App () {
-  console.log('first')
   return (
-    <div className='dark text-foreground bg-background'>
-      <Presentation />
-      <AboutMe />
-      <Project />
-      <Technologies />
+    <div className='absolute w-full -z-10 items-center px-5 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-white'>
+      <Header />
+      <main className='px-4'>
+        <Presentation />
+        <div className='space-y-24'>
+          <Project />
+          <Technologies />
+          <AboutMe />
+        </div>
+      </main>
     </div>
   )
 }

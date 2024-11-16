@@ -3,7 +3,7 @@ import prefil from '../../assets/perfil.jpg'
 
 export function AboutMe () {
   return (
-    <section className='pt-10 ml-10 mr-10'>
+    <section className='w-full mx-auto max-w-4xl pb-6'>
       <div className='grid grid-cols-1 justify-items-center items-center gap-5 md:grid-cols-[2.5fr_1fr]  p-5 border-2 rounded-lg border-solid border-cyan-50 border-opacity-20'>
         <div>
           <h3 className='text-2xl font-bold'>Hola, soy Matias Joaquin Gallardo</h3>
